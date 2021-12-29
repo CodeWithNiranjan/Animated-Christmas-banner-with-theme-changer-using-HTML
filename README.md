@@ -6,6 +6,8 @@ I am using [SnowStorm.js](http://www.schillmania.com/projects/snowstorm/) in thi
 
 Link for SnowStorm.js - [http://www.schillmania.com/projects/snowstorm/](http://www.schillmania.com/projects/snowstorm/)
 
+And use [WinRAR](https://www.win-rar.com/) to extract [SnowStorm.js](http://www.schillmania.com/projects/snowstorm/)
+
 ## Usage
 
 ### Changing Snow color
