@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Satisfy', cursive;
+}
+
+.white{
+    background: #e4e3e8;
+}
+
+body.white *::selection{
+    background: #ff2a2a;
+    color: #e4e3e8;
+}
+
+.red{
+    background: #ff2a2a;
+    color: #e4e3e8;
+}
+
+body.red *::selection{
+    background: #f3f3f3;
+    color: #ff2a2a;
+}
+
+.ico{
+    font-size: 60px;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.merry-xmas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+}
+
+body.white .merry-xmas{
+    background: #e4e3e8;
+    box-shadow: 20px 20px 60px #dbdadf,
+    -20px -20px 60px #edecf1;
+}
+
+body.red .merry-xmas{
+    background: #ff2a2a;
+    box-shadow: 20px 20px 60px #e32525,
+    -20px -20px 60px #ff2f2f;
+}
